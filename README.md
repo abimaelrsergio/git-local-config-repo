@@ -3,8 +3,7 @@
 
 ## Qualquer alteração no repo, rodar:
 
-  a) http://localhost:8080/actuator/refresh
-  b) http://localhost:8081/actuator/refresh
+  a) http://localhost:8081/actuator/bus-refresh
 
 ##Debugging problems with Spring Cloud Config Server
 
