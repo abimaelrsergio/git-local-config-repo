@@ -116,9 +116,10 @@ spring.cloud.config.uri=http://localhost:8888
 
 # https://zipkin.io/pages/quickstart
   
-   a) curl -sSL https://zipkin.io/quickstart.sh | bash -s
-   b) Copie o jar para o seu repositório para ter a versao usada.
-   c) java -jar zipingk.jar
-   d) entre no navegador: http://localhost:9411/zipkin/
-   e) Instale o RabbitMQ no linux: https://tecadmin.net/install-rabbitmq-server-on-ubuntu/
+   a) Instale o RabbitMQ no linux: https://tecadmin.net/install-rabbitmq-server-on-ubuntu/
+   b) curl -sSL https://zipkin.io/quickstart.sh | bash -s
+   c) Copie o jar para o seu repositório para ter a versao usada.
+   d) RABBIT_URI=amqp://localhost java -jar zipkin.jar
+   e) entre no navegador: http://localhost:9411/zipkin/
+   f) Instale o RabbitMQ no linux: https://tecadmin.net/install-rabbitmq-server-on-ubuntu/
 
