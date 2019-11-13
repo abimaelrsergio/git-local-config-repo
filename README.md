@@ -111,3 +111,13 @@ spring.cloud.config.server.git.uri=file:///in28Minutes/git/spring-micro-services
 
 spring.application.name=limits-service
 spring.cloud.config.uri=http://localhost:8888
+
+## Faça download do Zipking:
+
+# https://zipkin.io/pages/quickstart
+  
+   a) curl -sSL https://zipkin.io/quickstart.sh | bash -s
+   b) Copie o jar para o seu repositório para ter a versao usada.
+   c) java -jar zipingk.jar
+   d) entre no navegador: http://localhost:9411/zipkin/
+
