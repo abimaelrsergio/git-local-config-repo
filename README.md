@@ -1,6 +1,11 @@
 #git-local-config-repo
 
 
+## Qualquer alteração no repo, rodar:
+
+  a) http://localhost:8080/actuator/refresh
+  b) http://localhost:8081/actuator/refresh
+
 ##Debugging problems with Spring Cloud Config Server
 
 First of all check if you have any typos in the URL. Does it match exactly what is given below?
